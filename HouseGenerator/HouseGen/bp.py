@@ -3,7 +3,6 @@ import gen
 import sys
 import tkinter as tk
 
-os.chdir('C:/Python36')
 print(os.getcwd())
 
 run = True
@@ -32,5 +31,6 @@ def PrintRoom(house):
                         print(value)
                     else:
                         pass
+            print('\n')
 
 PrintRoom(house)
