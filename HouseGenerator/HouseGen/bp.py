@@ -3,8 +3,6 @@ import gen
 import sys
 import tkinter as tk
 
-print(os.getcwd())
-
 run = True
 while run:
     try:
@@ -33,4 +31,7 @@ def PrintRoom(house):
                         pass
             print('\n')
 
-PrintRoom(house)
+if __name__ == '__main__':
+    PrintRoom(house)
+else:
+    PrintRoom(house)
