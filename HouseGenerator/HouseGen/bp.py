@@ -34,4 +34,4 @@ def PrintRoom(house):
 if __name__ == '__main__':
     PrintRoom(house)
 else:
-    PrintRoom(house)
+    pass
